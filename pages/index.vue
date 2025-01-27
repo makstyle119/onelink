@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/nuxt'
+
 <template>
   <div class="h-screen grid grid-cols-3 divide-x">
     <div class="col-span-2 h-screen flex flex-col bg-slate-100">
@@ -56,6 +58,7 @@
       Made by Fayaz
     </a>
   </div>
+  <Analytics />
 </template>
 
 <script setup>
